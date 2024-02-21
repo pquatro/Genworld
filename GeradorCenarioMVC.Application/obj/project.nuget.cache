@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RgkI1QbwZIe901HvkAhJFzjluCuj0/P7NbsqUUCob74i9jWHwfQj+Phn9GABBmqrbZVxIF6H06moi++HP2JL2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.Application\\GeradorCenarioMVC.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pedro\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\bin\Debug\net7.0\GeradorCenarioMVC.Application.deps.json
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\bin\Debug\net7.0\GeradorCenarioMVC.Application.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\bin\Debug\net7.0\GeradorCenarioMVC.Application.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\bin\Debug\net7.0\GeradorCenarioMVC.Domain.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\bin\Debug\net7.0\GeradorCenarioMVC.Domain.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.csproj.AssemblyReference.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.AssemblyInfoInputs.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.AssemblyInfo.cs
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.csproj.CopyComplete
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\refint\GeradorCenarioMVC.Application.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\GeradorCenarioMVC.Application.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Application\obj\Debug\net7.0\ref\GeradorCenarioMVC.Application.dll

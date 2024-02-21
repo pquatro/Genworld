@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GeradorCenarioMVC.WebUI
+build_property.RootNamespace = GeradorCenarioMVC.WebUI
+build_property.ProjectDir = C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\pquatro\Genworld\GeradorCenarioMVC.WebUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\pquatro\Genworld\GeradorCenarioMVC.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Cenario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VuYXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Cenario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VuYXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Cenario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2VuYXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Conquista/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ucXVpc3RhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Conquista/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ucXVpc3RhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Conquista/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ucXVpc3RhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Shared/_HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/TipoConquista/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NvbnF1aXN0YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/TipoConquista/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NvbnF1aXN0YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/TipoConquista/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NvbnF1aXN0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pedro/Documents/rpg/gerador_cenarios/desenv/repos/pquatro/Genworld/GeradorCenarioMVC.WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,50 @@
+﻿@model GeradorCenarioMVC.WebUI.ViewModels.LoginViewModel
+
+<section id="slider" class="slider-element include-header min-vh-75" style="background: url( /images/landing/landing2.jpg) center; overflow: visible;">
+	<div class="slider-inner flex-column justify-content-end">
+		<div class="container" style="z-index: 1;">
+
+			<div class="row align-items-end justify-content-end h-100">
+				<div class="form-widget col-lg-4" data-loader="button">
+				
+
+					<form asp-controller="Account" asp-action="Login" method="post" class="landing-wide-form dark mb-0">
+
+						<input type="hidden" asp-for="ReturnUrl" />
+
+						@* <div asp-validation-summary="All" class="text-danger"></div> *@
+												
+
+						<div class="col-12 form-group">
+							<label asp-for="Email" class="col-md-2 control-label"></label>							
+							<input asp-for="Email" class="form-control required form-control-lg not-dark" />
+							<span asp-validation-for="Email" class="text-danger"></span>							
+						</div>
+
+						<div class="col-12 form-group">
+							<label asp-for="Password" class="col-md-2 control-label"></label>
+							<input asp-for="Password" class="form-control required form-control-lg not-dark" />
+							<span asp-validation-for="Password" class="text-danger"></span>
+						</div>
+
+						<div class="col-12 form-group mb-0">
+							<button class="btn btn-lg btn-danger w-100 m-0" id="butCadastro" value="submit" type="submit">Entrar</button>
+						</div>
+
+						<p>
+							<a asp-action="../home/index">Cadastrar um novo usuário?</a>
+						</p>
+
+					</form>
+				
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCenarioMVC.WebUI", "GeradorCenarioMVC.WebUI.csproj", "{09ADDC83-F0BB-48AF-8692-BB22B22EB0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCenarioMVC.Application", "..\GeradorCenarioMVC.Application\GeradorCenarioMVC.Application.csproj", "{29F6C224-AF06-4264-BFA1-50DB83FEDD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCenarioMVC.Domain", "..\GeradorCenarioMVC.Domain\GeradorCenarioMVC.Domain.csproj", "{A181F41C-ED90-4D55-AE72-76CF093AA49E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCenarioMVC.Infra.Data", "..\GeradorCenarioMVC.Infra.Data\GeradorCenarioMVC.Infra.Data.csproj", "{08FF2999-C400-4868-9F2D-BE2226B7E25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCenarioMVC.Infra.IoC", "..\GeradorCenarioMVC.Infra.IoC\GeradorCenarioMVC.Infra.IoC.csproj", "{B43386BA-2ED0-40E2-8BC4-9FD7A797707F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09ADDC83-F0BB-48AF-8692-BB22B22EB0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09ADDC83-F0BB-48AF-8692-BB22B22EB0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09ADDC83-F0BB-48AF-8692-BB22B22EB0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09ADDC83-F0BB-48AF-8692-BB22B22EB0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F6C224-AF06-4264-BFA1-50DB83FEDD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F6C224-AF06-4264-BFA1-50DB83FEDD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F6C224-AF06-4264-BFA1-50DB83FEDD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F6C224-AF06-4264-BFA1-50DB83FEDD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A181F41C-ED90-4D55-AE72-76CF093AA49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A181F41C-ED90-4D55-AE72-76CF093AA49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A181F41C-ED90-4D55-AE72-76CF093AA49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A181F41C-ED90-4D55-AE72-76CF093AA49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FF2999-C400-4868-9F2D-BE2226B7E25B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FF2999-C400-4868-9F2D-BE2226B7E25B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FF2999-C400-4868-9F2D-BE2226B7E25B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FF2999-C400-4868-9F2D-BE2226B7E25B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43386BA-2ED0-40E2-8BC4-9FD7A797707F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43386BA-2ED0-40E2-8BC4-9FD7A797707F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43386BA-2ED0-40E2-8BC4-9FD7A797707F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43386BA-2ED0-40E2-8BC4-9FD7A797707F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C129ABEF-F0D2-422E-8316-3B8F0F3A8280}
+	EndGlobalSection
+EndGlobal

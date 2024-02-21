@@ -1,0 +1,11 @@
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\bin\Debug\net7.0\GeradorCenarioMVC.Domain.deps.json
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\bin\Debug\net7.0\GeradorCenarioMVC.Domain.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\bin\Debug\net7.0\GeradorCenarioMVC.Domain.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\GeradorCenarioMVC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\GeradorCenarioMVC.Domain.AssemblyInfoInputs.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\GeradorCenarioMVC.Domain.AssemblyInfo.cs
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\GeradorCenarioMVC.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\GeradorCenarioMVC.Domain.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\refint\GeradorCenarioMVC.Domain.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\GeradorCenarioMVC.Domain.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Domain\obj\Debug\net7.0\ref\GeradorCenarioMVC.Domain.dll

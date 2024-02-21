@@ -1,0 +1,143 @@
+﻿@model GeradorCenarioMVC.Application.DTOs.UsuarioDTO
+
+@{
+	Layout = "_AdminLayout";
+}
+
+
+<!-- Page Title
+		============================================= -->
+<section class="page-title bg-transparent">
+	<div class="container">
+		<div class="page-title-row">
+
+			<div class="page-title-content">
+				<h1>@ViewData["Title"]</h1>
+			</div>
+
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Administração</a></li>
+					<li class="breadcrumb-item"><a href="#">Usuário</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Cadastrar Novo Usuário</li>
+				</ol>
+			</nav>
+
+		</div>
+	</div>
+</section><!-- .page-title end -->
+<!-- Content
+============================================= -->
+<section id="content">
+	<div class="content-wrap">
+		<div class="container">
+
+			<div class="form-widget">
+
+				<div class="form-result text-danger"></div>
+
+				<div class="row">
+					<div class="col-lg-6">
+
+						<form asp-action="Create" method="post" class="row" id="usuario-registration" enctype="multipart/form-data">
+							@*<div asp-validation-summary="All" class="text-danger"></div>*@
+
+							<div id="usuario-registration-div"></div>
+
+							<div class="col-6 form-group">
+								<label asp-for="nomePrimeiro">Primeiro nome:</label>
+								<input asp-for="nomePrimeiro" type="text" class="form-control required" value="" placeholder="Entre com o primeiro nome">
+								<span asp-validation-for="nomePrimeiro" class="text-danger"></span>
+							</div>
+							<div class="col-6 form-group">
+								<label asp-for="nomeUltimo">Último nome:</label>
+								<input asp-for="nomeUltimo" type="text" class="form-control required" value="" placeholder="Entre com o último nome">
+								<span asp-validation-for="nomeUltimo" class="text-danger"></span>
+							</div>
+							<div class="col-12 form-group">
+								<label asp-for="email">Email:</label>
+								<input asp-for="email" type="text" class="form-control required" value="" placeholder="Entre com o email">
+								<span asp-validation-for="email" class="text-danger"></span>
+							</div>
+							<div class="col-6 form-group">
+								<label asp-for="password">Password:</label>
+								<input asp-for="password" class="form-control required" />
+								<span asp-validation-for="password" class="text-danger"></span>
+							</div>
+							<div class="col-6 form-group">
+								<label asp-for="confirmPassword">Confirme Password:</label>
+								<input asp-for="confirmPassword" class="form-control required" />
+								<span asp-validation-for="confirmPassword" class="text-danger"></span>
+							</div>
+							<div class="col-6 form-group">
+								<label asp-for="recebeEmail">Recebe notificação por email:</label>
+								<div class="form-check form-check-inline">
+									@{
+										var ativo = "checked";
+									}
+									@Html.RadioButtonFor(m=>m.recebeEmail,true, new { htmlAttributes = new { @class = "form-check-input required valid", name="usuario-registration-recebeEmail", id="usuario-registration-recebeEmail-sim", ativo} } )
+									<label class="form-check-label text-transform-none" for="usuario-registration-recebeEmail-sim">sim</label>
+								</div>
+								<div class="form-check form-check-inline">
+									@Html.RadioButtonFor(m=>m.recebeEmail,false, new { htmlAttributes = new { @class = "form-check-input required valid", name="usuario-registration-recebeEmail", id="usuario-registration-recebeEmail-nao", string.Empty } } )
+									<label class="form-check-label text-transform-none" for="usuario-registration-recebeEmail-nao">não</label>
+								</div>
+							</div>
+
+							<div class="col-12 form-group">
+								<label asp-for="picture" style="width: 100%;">Foto:</label>															
+								<img id="imgPicture" style="width:250px;height:250px; object-fit:cover" src="">
+								<input type="file" accept=".png,.jpg,.jpeg" asp-for="picture" class="form-control" style="border:0px!important;padding: 0px;padding-top: 10px;padding-bottom: 30px;"
+			 onchange="document.getElementById('imgPicture').src = window.URL.createObjectURL(this.files[0])" />
+								<span asp-validation-for="picture" class="text-danger"></span>								
+							</div>
+
+							<div class="col-12 d-none">
+								<input type="text" id="usuario-registration-botcheck" name="usuario-registration-botcheck" value="" class="form-control" />
+							</div>
+
+
+							<div class="col-12">
+								<button type="submit" name="usuario-registration-submit" class="btn btn-secondary">Cadastrar</button>
+								<a asp-action="Index" class="btn btn-info">Voltar</a>
+							</div>
+
+
+
+
+							<!-- Form Settings -->
+
+							<input type="hidden" name="prefix" value="usuario-registration-">
+							<input type="hidden" name="subject" value="Message from Contact Form">
+
+						</form>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</section><!-- #content end -->
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+	<script src="~/js/site.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+		@if (!Html.ViewData.ModelState.IsValid)
+		{
+			string messages = string.Join("; ", Html.ViewData.ModelState.Values
+			.SelectMany(x => x.Errors)
+			.Select(x => x.ErrorMessage));
+
+			<text>
+					createAlertBoxe("usuario-registration-div", "@messages", "alertDanger");
+			</text>
+		}
+						});
+	</script>
+}

@@ -1,0 +1,17 @@
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\bin\Debug\net7.0\GeradorCenarioMVC.Infra.Data.deps.json
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\bin\Debug\net7.0\GeradorCenarioMVC.Infra.Data.runtimeconfig.json
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\bin\Debug\net7.0\GeradorCenarioMVC.Infra.Data.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\bin\Debug\net7.0\GeradorCenarioMVC.Infra.Data.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\bin\Debug\net7.0\GeradorCenarioMVC.Domain.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\bin\Debug\net7.0\GeradorCenarioMVC.Domain.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.AssemblyInfo.cs
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.csproj.CopyComplete
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\refint\GeradorCenarioMVC.Infra.Data.dll
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.pdb
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\GeradorCenarioMVC.Infra.Data.genruntimeconfig.cache
+C:\Users\Pedro\Documents\rpg\gerador_cenarios\desenv\repos\GeradorCenarioMVC.Infra.Data\obj\Debug\net7.0\ref\GeradorCenarioMVC.Infra.Data.dll

@@ -1,0 +1,1769 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\components\\bs-datatable.css",
+      "PackagePath": "staticwebassets\\css\\components\\bs-datatable.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\components\\bs-select.css",
+      "PackagePath": "staticwebassets\\css\\components\\bs-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\components\\bs-switches.css",
+      "PackagePath": "staticwebassets\\css\\components\\bs-switches.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\components\\ion.rangeslider.css",
+      "PackagePath": "staticwebassets\\css\\components\\ion.rangeslider.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\components\\radio-checkbox.css",
+      "PackagePath": "staticwebassets\\css\\components\\radio-checkbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\components\\select-boxes.css",
+      "PackagePath": "staticwebassets\\css\\components\\select-boxes.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\font-icons.css",
+      "PackagePath": "staticwebassets\\css\\font-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\forum.css",
+      "PackagePath": "staticwebassets\\css\\forum.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\me-parallax.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\me-parallax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\about\\parallax.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\parallax.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\authors\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\authors\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\authors\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\authors\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\authors\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\authors\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\footer-widget-logo.png",
+      "PackagePath": "staticwebassets\\images\\footer-widget-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\grid.png",
+      "PackagePath": "staticwebassets\\images\\grid.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\close.png",
+      "PackagePath": "staticwebassets\\images\\icons\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\flag.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\flag.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\map.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\performance.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\performance.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\responsive.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\responsive.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\retina.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\retina.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\seo.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\seo.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\support.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\support.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\tick.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\features\\tools.png",
+      "PackagePath": "staticwebassets\\images\\icons\\features\\tools.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\iconalt.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\iconalt.svg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\icons\\play.png",
+      "PackagePath": "staticwebassets\\images\\icons\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\intro\\bg-2.jpeg",
+      "PackagePath": "staticwebassets\\images\\intro\\bg-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\landing\\bootstrap.png",
+      "PackagePath": "staticwebassets\\images\\landing\\bootstrap.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\landing\\landing2.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\landing2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\landing\\landing2_temp.jpg",
+      "PackagePath": "staticwebassets\\images\\landing\\landing2_temp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\landing\\responsive.png",
+      "PackagePath": "staticwebassets\\images\\landing\\responsive.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\pattern.png",
+      "PackagePath": "staticwebassets\\images\\pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\12-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\12-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\4-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\6-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\6-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\6-2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\6-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\6-3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\6-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\9-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\9-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\9-2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\9-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\12-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\12-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\4-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\6-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\6-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\6-2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\6-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\6-3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\6-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\9-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\9-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\9-2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\9-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\4\\mixed\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\4\\mixed\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\12-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\12-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\4-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\6-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\6-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\6-2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\6-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\6-3.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\6-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\9-1.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\9-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\9-2.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\9-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\portfolio\\full\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\portfolio\\full\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\shop\\small\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\small\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\shop\\small\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\shop\\small\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\testimonials\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonials\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\images\\world-map.png",
+      "PackagePath": "staticwebassets\\images\\world-map.png"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\chart-utils.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\chart-utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\chart.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\chartjs-plugin-zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\chartjs-plugin-zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\bs-datatable.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\bs-datatable.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\bs-filestyle.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\bs-filestyle.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\bs-select.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\bs-select.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\bs-select.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\bs-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\bs-switches.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\bs-switches.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\datepicker.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\event.move.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\event.move.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\image-changer.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\image-changer.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\moment.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\rangeslider.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\rangeslider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\select-boxes.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\select-boxes.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\selectsplitter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\selectsplitter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\star-rating.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\star-rating.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\timepicker.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\timepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce.zip",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce.zip"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\jquery.tinymce.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\jquery.tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\bbcode\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\bbcode\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\colorpicker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\colorpicker\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\contextmenu\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\contextmenu\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\fullpage\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\fullpage\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\hr\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\hr\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\imagetools\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\imagetools\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\legacyoutput\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\legacyoutput\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\noneditable\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\noneditable\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\paste\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\paste\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\print\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\print\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\spellchecker\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\spellchecker\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\tabfocus\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\tabfocus\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\textcolor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\textcolor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\textpattern\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\textpattern\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\toc\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\toc\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\content.mobile.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\skin.mobile.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\content.mobile.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\fonts\\tinymce-mobile.woff"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\skin.mobile.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\themes\\mobile\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\themes\\mobile\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\components\\typehead.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\components\\typehead.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\events-data.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\events-data.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.accordions.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.accordions.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.adaptivecolorscheme.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.adaptivecolorscheme.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.ajaxbutton.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.ajaxbutton.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.ajaxform.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.ajaxform.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.ajaxportfolio.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.ajaxportfolio.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.animations.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.animations.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.bscomponents.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.bscomponents.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.carousel.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.clipboard.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.clipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.codehighlight.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.codehighlight.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.conditional.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.conditional.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.cookie.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.countdown.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.counter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.counter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.cursor.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.cursor.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.dataclasses.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.dataclasses.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.dataheights.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.dataheights.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.easing.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.fitvids.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.fitvids.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.flexslider.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.flickrfeed.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.flickrfeed.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.gmap.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.gmap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.gototop.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.gototop.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.gridfilter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.gridfilter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.headers.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.headers.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.hoveranimation.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.hoveranimation.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.html5video.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.html5video.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.instagram.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.instagram.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.isotope.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.lazyload.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.lazyload.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.lightbox.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.logo.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.logo.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.masonrythumbs.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.masonrythumbs.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.menus.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.menus.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.modal.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.navtree.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.navtree.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.notify.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.notify.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.onepage.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.onepage.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.pagemenu.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.pagemenu.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.pagetransition.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.pagetransition.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.parallax.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.parallax.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.piechart.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.piechart.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.pricingswitcher.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.pricingswitcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.progress.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.progress.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.quantity.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.quantity.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.readmore.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.readmore.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.schemetoggler.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.schemetoggler.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.search.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.search.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.shapedivider.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.shapedivider.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.sidepanel.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.sidepanel.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.sliderdimensions.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.sliderdimensions.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.slidermenuclass.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.slidermenuclass.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.sliderparallax.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.sliderparallax.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.stickfooteronsmall.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.stickfooteronsmall.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.stickysidebar.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.stickysidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.subscribe.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.subscribe.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.swiper.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.textrotator.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.textrotator.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.toggles.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.toggles.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.topcart.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.topcart.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.twitter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.twitter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.videofacade.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.videofacade.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.viewportdetect.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.viewportdetect.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\fn.youtube.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\fn.youtube.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\functions.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\holder.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\holder.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\jquery.calendario.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\jquery.calendario.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\jquery.hotspot.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\jquery.hotspot.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.accordions.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.accordions.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.adaptivecolorscheme.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.adaptivecolorscheme.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.ajaxbutton.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.ajaxbutton.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.ajaxform.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.ajaxform.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.ajaxportfolio.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.ajaxportfolio.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.animations.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.animations.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.bscomponents.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.bscomponents.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.carousel.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.clipboard.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.clipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.codehighlight.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.codehighlight.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.conditional.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.conditional.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.cookie.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.countdown.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.counter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.counter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.cursor.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.cursor.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.dataclasses.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.dataclasses.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.dataheights.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.dataheights.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.easing.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.fitvids.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.fitvids.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.flexslider.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.flickrfeed.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.flickrfeed.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.gmap.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.gmap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.gototop.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.gototop.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.gridfilter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.gridfilter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.headers.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.headers.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.hoveranimation.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.hoveranimation.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.html5video.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.html5video.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.instagram.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.instagram.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.isotope.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.lazyload.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.lazyload.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.lightbox.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.linkscroll.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.linkscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.logo.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.logo.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.masonrythumbs.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.masonrythumbs.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.menus.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.menus.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.modal.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.navtree.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.navtree.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.notify.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.notify.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.onepage.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.onepage.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.pagemenu.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.pagemenu.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.pagetransition.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.pagetransition.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.parallax-custom.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.parallax-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.parallax.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.parallax.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.piechart.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.piechart.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.portfolioreveal.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.portfolioreveal.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.pricingswitcher.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.pricingswitcher.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.progress.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.progress.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.quantity.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.quantity.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.readmore.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.readmore.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.schemetoggler.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.schemetoggler.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.search.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.search.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.shapedivider.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.shapedivider.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.sidepanel.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.sidepanel.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.sliderdimensions.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.sliderdimensions.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.slidermenuclass.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.slidermenuclass.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.sliderparallax.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.sliderparallax.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.stickfooteronsmall.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.stickfooteronsmall.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.stickysidebar.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.stickysidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.subscribe.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.subscribe.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.swiper.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.tabs.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.textrotator.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.textrotator.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.toggles.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.toggles.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.topcart.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.topcart.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.twitter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.twitter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.videofacade.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.videofacade.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.viewportdetect.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.viewportdetect.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\module.youtube.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\module.youtube.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\particles\\particles-bubbles.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\particles\\particles-bubbles.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\particles\\particles-line.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\particles\\particles-line.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\particles\\particles-nasa.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\particles\\particles-nasa.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\particles\\particles-poly.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\particles\\particles-poly.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\particles\\particles-snow.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\particles\\particles-snow.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\particles\\particles.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\particles\\particles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\particles\\particlesjs-config.json",
+      "PackagePath": "staticwebassets\\js\\canvas\\particles\\particlesjs-config.json"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.carousel.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.clipboard.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.clipboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.cookie.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.countdown.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.counter.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.counter.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.dribbble.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.dribbble.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.easing.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.fitvids.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.fitvids.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.flexslider.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.flexslider.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.flickrfeed.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.flickrfeed.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.form.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.form.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.gmap.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.gmap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.hashchange.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.hashchange.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.imagesloaded.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.imagesloaded.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.infinitescroll.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.infinitescroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.isotope.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.jpaginate.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.jpaginate.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.lazyload.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.lazyload.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.lightbox.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.min.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.packery.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.packery.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.parallax.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.parallax.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.piechart.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.piechart.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.prism.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.prism.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.stickysidebar.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.stickysidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.swiper.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.textrotator.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.textrotator.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.validation.phoneUS.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.validation.phoneUS.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\canvas\\plugins.youtube.js",
+      "PackagePath": "staticwebassets\\js\\canvas\\plugins.youtube.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Pedro\\Documents\\rpg\\gerador_cenarios\\desenv\\repos\\GeradorCenarioMVC.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.GeradorCenarioMVC.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.GeradorCenarioMVC.WebUI.props",
+      "PackagePath": "build\\GeradorCenarioMVC.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.GeradorCenarioMVC.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\GeradorCenarioMVC.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.GeradorCenarioMVC.WebUI.props",
+      "PackagePath": "buildTransitive\\GeradorCenarioMVC.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
