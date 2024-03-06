@@ -16,7 +16,7 @@ namespace GeradorCenarioMVC.Infra.Data.Repositories
 
         public async Task<IEnumerable<CenarioGenero>> GetAllAsync()
         {
-            return await _cenarioGeneroContext.CenarioGeneros.ToListAsync();
+            return await _cenarioGeneroContext.CenarioGeneros.AsNoTracking().ToListAsync();
         }
 
         public async Task<CenarioGenero> GetByIdAsync(int? id)

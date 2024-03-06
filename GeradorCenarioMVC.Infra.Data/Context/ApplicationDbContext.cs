@@ -8,7 +8,7 @@ namespace GeradorCenarioMVC.Infra.Data.Context
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> opttions) : base(opttions) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> opttions) : base(opttions) {	}
 
         public DbSet<Campanha> Campanhas { get; set; }
         public DbSet<CategoriaMateria> CategoriasMateria { get; set; }

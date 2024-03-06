@@ -1,8 +1,12 @@
 ﻿using GeradorCenarioMVC.Application.DTOs;
 using GeradorCenarioMVC.Application.Interfaces;
+using GeradorCenarioMVC.Application.Services;
+using GeradorCenarioMVC.Domain.Entities;
 using GeradorCenarioMVC.WebUI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 using System.Reflection;
 using System.Security.Claims;
 
@@ -11,13 +15,15 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 	[Authorize]
 	public class CenarioController : Controller
 	{
-		private readonly ICenarioService _cenarioService;		
+		private readonly ICenarioService _cenarioService;
+		private readonly ICenarioGeneroService _cenarioGeneroService;
 		private readonly IWebHostEnvironment _environment;
 		private readonly ILogger<HomeController> _logger;
-		public CenarioController(ICenarioService cenarioService, 
+		public CenarioController(ICenarioService cenarioService, ICenarioGeneroService cenarioGeneroService,
 			IWebHostEnvironment environment, ILogger<HomeController> logger)
 		{
-			_cenarioService = cenarioService;			
+			_cenarioService = cenarioService;
+			_cenarioGeneroService = cenarioGeneroService;
 			_environment = environment;
 			_logger = logger;
 
@@ -136,11 +142,14 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 			}
 			return prop;
 		}
-
 		[HttpGet()]
 		public async Task<IActionResult> Create()
 		{
-			
+
+			List<SelectListItem> items = new SelectList(await _cenarioGeneroService.GetAllAsync(), "id", "nome").ToList();
+			//items.Insert(0, (new SelectListItem { Text = "-- selecione --", Value = "0" }));
+			ViewBag.CenarioGeneros = items;
+
 			ViewData["Title"] = "Cadastrar um Novo Cenário";
 			return View();
 		}
@@ -153,10 +162,35 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 
 			//var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
 
+			List<SelectListItem> items = new SelectList(await _cenarioGeneroService.GetAllAsync(), "id", "nome").ToList();
+			//items.Insert(0, (new SelectListItem { Text = "-- selecione --", Value = "0" }));
+			ViewBag.CenarioGeneros = items;
+
+
+			ModelState.Remove("sistemaOficial");
+			ModelState.Remove("cenarioOficial");
+			ModelState.Remove("cenarioGeneros");
+			ModelState.Remove("tags");
+			ModelState.Remove("peso");
+			ModelState.Remove("galeria");
+			ModelState.Remove("dataCenario");
+
+			ModelState.Remove("tagsSelected");
+			ModelState.Remove("MultipleFiles");
+
+
 			if (ModelState.IsValid)
 			{
 				try
 				{
+
+					
+					List<Imagem> imagens = await UploadImage(cenario.multipleFiles);
+					Galeria gallery = new Galeria();
+					gallery.Imagens = imagens;
+
+
+
 					var listaCenarioDTO = await _cenarioService.GetAllAsync();
 					string findName = listaCenarioDTO.Select(x => x.nome).FirstOrDefault(x => x == cenario.nome);
 					if (findName != null)
@@ -167,12 +201,35 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 							Result = "ERROR",
 							Message = "O nome já existe."
 						};
-
-						//ViewData["return"] = new { Result = "ERROR", Message = "O nome já existe." };
 						return View(cenario);
 					}
 
-					await _cenarioService.CreateAsync(cenario);
+					cenario.galeria = gallery;
+					cenario.dataCenario = DateTime.Now.ToString();
+
+					List<CenarioGenero> cenarioGeneros = new List<CenarioGenero>();
+					foreach (var item in cenario.cenarioGenerosSelected)
+					{
+						CenarioGeneroDTO obj = await _cenarioGeneroService.GetByIdAsync(Int32.Parse(item));
+						CenarioGenero obj2 = new CenarioGenero(obj.id, obj.nome, obj.ativo);
+						cenarioGeneros.Add(obj2);
+					}
+					cenario.cenarioGeneros = cenarioGeneros;
+
+
+					if (cenario.tagsSelected.Count > 0)
+					{
+						List<Tag> tags = new List<Tag>();
+						foreach (var item in cenario.tagsSelected)
+						{
+							Tag obj = new Tag(item);
+							tags.Add(obj);
+						}
+						cenario.tags = tags;
+					}
+
+
+					await _cenarioService.UpdateAsync(cenario);
 					_logger.LogInformation($"Add Cenario - {cenario.nome} - user {HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier)}");
 				}
 				catch (Exception ex)
@@ -193,13 +250,64 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 			return View(cenario);
 		}
 
+		private static async Task<List<Imagem>> UploadImage(IEnumerable<IFormFile> multipleFiles)
+		{			
+
+			try
+			{
+				List<Imagem> imagens = new List<Imagem>();
+				if (multipleFiles != null) {
+					foreach (var file in multipleFiles)
+					{
+						if (file.Length > 0)
+						{
+							// Process each file here
+							//Creating a unique File Name
+							var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+							var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", uniqueFileName);
+							//Using Buffering
+							//using (var stream = System.IO.File.Create(filePath))
+							//{
+							//    // The file is saved in a buffer before being processed
+							//    await file.CopyToAsync(stream);
+							//}
+							//Using Streaming
+							using (var stream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+							{
+								//This will save to Local folder
+								await file.CopyToAsync(stream);
+							}
+							// Create an instance of FileModel
+
+							Imagem fileModel = new Imagem(uniqueFileName, filePath);
+							imagens.Add(fileModel);
+						}
+					}
+					return imagens;
+				}
+				
+				return null;
+			}
+			catch (Exception ex)
+			{
+				throw;
+			}
+			
+		}
+
 		[HttpGet()]
 		public async Task<IActionResult> Edit(int? id)
 		{
 			if (id == null) return NotFound();
 			var cenarioDTO = await _cenarioService.GetByIdAsync(id);
 			if (cenarioDTO == null) return NotFound();
-						
+
+			
+			var items = await _cenarioGeneroService.GetAllAsync();
+			var selectList = new SelectList(items, "id", "nome", cenarioDTO.cenarioGeneros).ToList();
+			//selectList.Insert(0, (new SelectListItem { Text = "-- selecione --", Value = "0" }));
+			ViewBag.CenarioGeneros = selectList;
+			
 
 			return View(cenarioDTO);
 		}
@@ -208,7 +316,19 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 		public async Task<IActionResult> Edit(CenarioDTO cenario)
 		{
 			//var userId = HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
-						
+
+
+			var items = await _cenarioGeneroService.GetAllAsync();
+			var selectList = new SelectList(items, "id", "nome", cenario.cenarioGeneros).ToList();
+			//selectList.Insert(0, (new SelectListItem { Text = "-- selecione --", Value = "0" }));
+			ViewBag.CenarioGeneros = selectList;
+
+
+			ModelState.Remove("sistemaOficial");
+			ModelState.Remove("cenarioOficial");
+			ModelState.Remove("cenarioGeneros");
+			ModelState.Remove("tags");
+			ModelState.Remove("peso");
 
 			if (ModelState.IsValid)
 			{

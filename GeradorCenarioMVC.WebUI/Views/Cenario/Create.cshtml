@@ -41,7 +41,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 
-						<form asp-action="Create" method="post" class="row" id="cenario-registration">
+						<form asp-action="Create" method="post" class="row" id="cenario-registration" enctype="multipart/form-data">
 							@Html.AntiForgeryToken()
 							@* <div asp-validation-summary="All" class="text-danger"></div> *@
 							
@@ -75,48 +75,46 @@
 
 							<div class="col-12 form-group">
 								<div class="white-section">
-									<label>Gênero:</label>
-									<select class="selectpicker" multiple>
-										<option>Mustard</option>
-										<option>Ketchup</option>
-										<option>Relish</option>
-									</select>									
+									<label asp-for="cenarioGenerosSelected">Gêneros:</label>
+									<select asp-for="cenarioGenerosSelected" class="selectpicker" multiple asp-items="ViewBag.CenarioGeneros">
+									</select>		
+									<span asp-validation-for="cenarioGenerosSelected" class="text-danger"></span>
 								</div>
 							</div>
+						
 
 							<div class="col-12 form-group">
-								<label for="">Tags:</label>
-								<select class="select-tags form-select" multiple="" tabindex="-1" aria-hidden="true" style="width:100%;">									
+								<label asp-for="tagsSelected">Tags:</label>								
+								<select asp-for="tagsSelected" class="select-tags form-select" multiple="" tabindex="-1" aria-hidden="true" style="width:100%;">									
 								</select>
 							</div>
 
 							<div class="col-12 form-group">
 								<div class="white-section">
-									<label>Peso:</label>
-									<input class="range_1">
+									<label asp-for="peso">Peso:</label>									
+									<input asp-for="peso" class="range_1">
 								</div>
 							</div>
 							
-							@* <div class="col-12 form-group">
-								<label asp-for="tipoConquistaId">Tipo de Conquista:</label>
-								<select asp-for="tipoConquistaId" class="form-select required" asp-items="ViewBag.TipoConquistaId"> 									
-								</select>
-								<span asp-validation-for="tipoConquistaId" class="text-danger"></span>								
-							</div> *@
+							<div class="col-12 form-group">								
+								<label asp-for="multipleFiles">Upload Imagens para o cenário:</label>
+								<input asp-for="multipleFiles" id="input-1" name="input2[]" type="file" class="file" multiple data-show-upload="false" data-show-caption="true" data-show-preview="true">
+							</div>
+
 							<div class="col-6 form-group">
-								<label>Privado:</label><br>
+								<label asp-for="privado">Privado:</label><br>
 								<div class="row">
 									<div class="col-lg-6">
-										<input class="bt-switch" type="checkbox" checked data-on-text="Não" data-off-text="Sim" data-on-color="info" data-off-color="danger">
-									</div>									
+										<input asp-for="privado" class="bt-switch" type="checkbox" data-on-text="Sim" data-off-text="Não" data-on-color="info" data-off-color="danger">
+									</div>
 								</div>
 							</div>
 							<div class="col-6 form-group">
-								<label>Ativo:</label><br>
-								<div class="row">								
+								<label asp-for="ativo">Ativo:</label><br>
+								<div class="row">
 									<div class="col-lg-6">
-										<input class="bt-switch" type="checkbox" checked data-on-text="Sim" data-off-text="Não" data-on-color="info" data-off-color="danger">
-									</div>								
+										<input asp-for="ativo" class="bt-switch" type="checkbox" checked data-on-text="Sim" data-off-text="Não" data-on-color="info" data-off-color="danger">
+									</div>
 								</div>
 							</div>
 
@@ -129,6 +127,7 @@
 								<a asp-action="Index" class="btn btn-info">Voltar</a>
 							</div>
 
+							
 							
 
 

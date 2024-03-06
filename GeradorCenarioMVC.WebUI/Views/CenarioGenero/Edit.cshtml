@@ -1,4 +1,4 @@
-﻿@model GeradorCenarioMVC.Application.DTOs.TipoConquistaDTO
+﻿@model GeradorCenarioMVC.Application.DTOs.CenarioGeneroDTO
 
 
 @{
@@ -20,8 +20,8 @@
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="#">Home</a></li>
 					<li class="breadcrumb-item"><a href="#">Administração</a></li>
-					<li class="breadcrumb-item"><a href="#">Tipo de Conquista</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Editar Tipo de Conquista</li>
+					<li class="breadcrumb-item"><a href="#">Gênero do Cenário</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Editar Gênero do Cenário</li>
 				</ol>
 			</nav>
 
@@ -41,22 +41,22 @@
 				<div class="row">
 					<div class="col-lg-6">
 
-						<form asp-action="Edit" method="post" class="row" id="tipoConquista-registration">
+						<form asp-action="Edit" method="post" class="row" id="cenarioGenero-registration">
 							@Html.AntiForgeryToken()
 
 							
 							
 							
 							@*<div asp-validation-summary="All" class="text-danger"></div>*@
-							@*<div class="alert alert-dismissible alert-danger" id="tipoConquista-registration-validation" style="display:none;"></div>*@
+							@*<div class="alert alert-dismissible alert-danger" id="cenarioGenero-registration-validation" style="display:none;"></div>*@
 
-							<div id="tipoConquista-registration-div"></div>
+							<div id="cenarioGenero-registration-div"></div>
 
 							
 							<div class="col-6 form-group">
 								<label asp-for="nome">Nome:</label>
-								@*<input asp-for="nome" type="text" name="tipoConquista-registration-nome" id="tipoConquista-registration-nome" class="form-control required" value="" placeholder="Entre com  o nome">*@
-								@Html.TextBoxFor(m => m.nome, new { @Value= Model.nome,  @class = "form-control required", placeholder="Entre com  o nome", id="tipoConquista-registration-nome", name="tipoConquista-registration-nome"})
+								@*<input asp-for="nome" type="text" name="cenarioGenero-registration-nome" id="cenarioGenero-registration-nome" class="form-control required" value="" placeholder="Entre com  o nome">*@
+								@Html.TextBoxFor(m => m.nome, new { @Value= Model.nome,  @class = "form-control required", placeholder="Entre com  o nome", id="cenarioGenero-registration-nome", name="cenarioGenero-registration-nome"})
 								<span asp-validation-for="nome" class="text-danger"></span>
 							</div>
 							<div class="col-12 form-group">
@@ -66,27 +66,27 @@
 										var ativo = Model.ativo == true ? "checked" : string.Empty;										
 									}
 
-									@Html.RadioButtonFor(m=>m.ativo,true, new { htmlAttributes = new { @class = "form-check-input required valid", name="tipoConquista-registration-ativo", id="tipoConquista-registration-ativo-sim", ativo } } )									
-									<label class="form-check-label text-transform-none" for="tipoConquista-registration-ativo-sim">sim</label>									
+									@Html.RadioButtonFor(m=>m.ativo,true, new { htmlAttributes = new { @class = "form-check-input required valid", name="cenarioGenero-registration-ativo", id="cenarioGenero-registration-ativo-sim", ativo } } )									
+									<label class="form-check-label text-transform-none" for="cenarioGenero-registration-ativo-sim">sim</label>									
 								</div>
 								<div class="form-check form-check-inline">
-									@Html.RadioButtonFor(m=>m.ativo,false, new { htmlAttributes = new { @class = "form-check-input required valid", name="tipoConquista-registration-ativo", id="tipoConquista-registration-ativo-nao", ativo } } )									
-									<label class="form-check-label text-transform-none" for="tipoConquista-registration-ativo-nao">não</label>
+									@Html.RadioButtonFor(m=>m.ativo,false, new { htmlAttributes = new { @class = "form-check-input required valid", name="cenarioGenero-registration-ativo", id="cenarioGenero-registration-ativo-nao", ativo } } )									
+									<label class="form-check-label text-transform-none" for="cenarioGenero-registration-ativo-nao">não</label>
 								</div>
 							</div>
 							
 
 							
-							@Html.HiddenFor(m => m.id,new { @Value= Model.id, id="tipoConquista-registration-id"})
+							@Html.HiddenFor(m => m.id,new { @Value= Model.id, id="cenarioGenero-registration-id"})
 							
 
 							<div class="col-12 d-none">
-								<input type="text" id="tipoConquista-registration-botcheck" name="tipoConquista-registration-botcheck" value="" class="form-control" />
+								<input type="text" id="cenarioGenero-registration-botcheck" name="cenarioGenero-registration-botcheck" value="" class="form-control" />
 							</div>
 
 
 							<div class="col-12">
-								<button type="submit" id="tipoConquista-registration-submit" name="tipoConquista-registration-submit" class="btn btn-secondary">Atualizar</button>
+								<button type="submit" id="cenarioGenero-registration-submit" name="cenarioGenero-registration-submit" class="btn btn-secondary">Atualizar</button>
 								<a asp-action="Index" class="btn btn-info">Voltar</a>
 							</div>
 
@@ -95,7 +95,7 @@
 
 							<!-- Form Settings -->
 
-							<input type="hidden" name="prefix" value="tipoConquista-registration-">
+							<input type="hidden" name="prefix" value="cenarioGenero-registration-">
 							<input type="hidden" name="subject" value="Message from Contact Form">
 
 						</form>

@@ -12,7 +12,8 @@ namespace GeradorCenarioMVC.Domain.Entities
         {
             ValidateDomain(nome);
         }
-        public CenarioGenero(int id, string nome, bool? ativo)
+		
+		public CenarioGenero(int id, string nome, bool? ativo)
         {
             DomainExceptionValidation.When(id < 0, "invalid_number", "Id", null);
             Id = id;

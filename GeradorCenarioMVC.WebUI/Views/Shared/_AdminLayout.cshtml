@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="~/css/components/bs-select.css">
 	<link rel="stylesheet" href="~/css/components/select-boxes.css">
 	<link rel="stylesheet" href="~/css/components/ion.rangeslider.css">
+	<link rel="stylesheet" href="~/css/components/bs-filestyle.css">
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="~/css/custom.css">
@@ -155,9 +156,12 @@
 											<a class="menu-link" href="#"><div><i class="bi-map-fill"></i>Cenário</div></a>
 											<ul class="sub-menu-container">
 												<li class="menu-item">
-													<a class="menu-link" href="slider-revolution.html"><div>Genero</div></a>													
+													<a class="menu-link" asp-controller="Cenario" asp-action="Index"><div>Cenário</div></a>
 												</li>
-											</ul>
+												<li class="menu-item">
+													<a class="menu-link" asp-controller="CenarioGenero" asp-action="Index"><div>Gênero</div></a>
+												</li>
+											</ul>											
 										</li>
 										<li class="menu-item">
 											<a class="menu-link" href="#"><div><i class="uil-mountains-sun"></i>Conquista</div></a>
@@ -534,11 +538,11 @@
 	<script src="~/js/canvas/components/rangeslider.min.js"></script>
 	<script src="~/js/canvas/components/moment.js"></script>
 
-	<script>
-		jQuery(document).ready(function () {			
+	<!-- Bootstrap File Upload Plugin -->
+	<script src="~/js/canvas/components/bs-filestyle.js"></script>
 
-			
-		});	
+	<script>
+		
 		jQuery(".range_1").ionRangeSlider({
 			min: 0,
 			max: 100,
@@ -554,6 +558,22 @@
 		});
 
 		jQuery(".bt-switch").bootstrapSwitch();
+
+		jQuery("#input-1").fileinput({
+			allowedFileTypes: ["image"]
+			/*
+			,			
+			language: 'pt',			
+			maxFileSize: 15000,			
+			uploadAsync: true,
+			//theme: "explorer-fas",
+			removeFromPreviewOnError: true,
+			allowedFileExtensions: ['jpg', 'png', 'gif'],
+			maxFileCount: 10	
+			*/
+
+		});
+
 	</script>
 
 	<!-- JavaScripts Microsoft

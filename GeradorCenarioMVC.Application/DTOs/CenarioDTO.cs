@@ -1,6 +1,8 @@
 ﻿using GeradorCenarioMVC.Domain.Entities;
+using Microsoft.AspNetCore.Http;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+
 
 namespace GeradorCenarioMVC.Application.DTOs
 {
@@ -15,7 +17,7 @@ namespace GeradorCenarioMVC.Application.DTOs
         public string descricao { get; set; }
         [DisplayName("Privado")]
         [DefaultValue(false)]
-        public bool? privado { get; set; }
+        public bool privado { get; set; }
         [DisplayName("Peso")]        
         [Range(1, 99, ErrorMessage ="O Peso deve ser entre 1 e 99.")]
         public int? peso { get; set; }
@@ -31,5 +33,16 @@ namespace GeradorCenarioMVC.Application.DTOs
         [DisplayName("Galeria")]
         public int? galeriaId { get; set; }
         public Galeria galeria { get; set; }
-    }
+
+
+		public IEnumerable<IFormFile> multipleFiles { get; set; }
+
+		public List<CenarioGenero> cenarioGeneros { get; set; }
+
+		public List<string> cenarioGenerosSelected { get; set; }
+
+		public List<Tag> tags { get; set; }
+
+		public List<string> tagsSelected { get; set; }
+	}
 }

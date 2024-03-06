@@ -1,4 +1,4 @@
-﻿@model GeradorCenarioMVC.Application.DTOs.TipoConquistaDTO
+﻿@model GeradorCenarioMVC.Application.DTOs.CenarioGeneroDTO
 
 @{
     Layout = "_AdminLayout";    
@@ -19,8 +19,8 @@
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="#">Home</a></li>
 					<li class="breadcrumb-item"><a href="#">Administração</a></li>
-					<li class="breadcrumb-item"><a href="#">Tipo de Conquista</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Cadastrar Novo Tipo de Conquista</li>
+					<li class="breadcrumb-item"><a href="#">Gênero do Cenário</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Cadastrar Novo Gênero do Cenário</li>
 				</ol>
 			</nav>
 
@@ -40,7 +40,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 
-						<form asp-action="Create" method="post" class="row" id="tipoConquista-registration">
+						<form asp-action="Create" method="post" class="row" id="cenarioGenero-registration">
 							<div asp-validation-summary="All" class="text-danger"></div>
 							
 							<div class="col-6 form-group">
@@ -50,12 +50,12 @@
 							</div>
 
 							<div class="col-12 d-none">
-								<input type="text" id="tipoConquista-registration-botcheck" name="tipoConquista-registration-botcheck" value="" class="form-control" />
+								<input type="text" id="cenarioGenero-registration-botcheck" name="cenarioGenero-registration-botcheck" value="" class="form-control" />
 							</div>	
 
 							
 							<div class="col-12">
-								<button type="submit" name="tipoConquista-registration-submit" class="btn btn-secondary">Cadastrar</button>
+								<button type="submit" name="cenarioGenero-registration-submit" class="btn btn-secondary">Cadastrar</button>
 								<a asp-action="Index" class="btn btn-info">Voltar</a>
 							</div>
 
@@ -64,7 +64,7 @@
 
 							<!-- Form Settings -->
 
-							<input type="hidden" name="prefix" value="tipoConquista-registration-">
+							<input type="hidden" name="prefix" value="cenarioGenero-registration-">
 							<input type="hidden" name="subject" value="Message from Contact Form">
 
 						</form>						

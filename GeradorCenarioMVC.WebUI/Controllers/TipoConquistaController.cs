@@ -1,6 +1,7 @@
 ﻿using GeradorCenarioMVC.Application.DTOs;
 using GeradorCenarioMVC.Application.Interfaces;
 using GeradorCenarioMVC.Domain.Entities;
+using GeradorCenarioMVC.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
 using System.Security.Claims;
@@ -142,7 +143,18 @@ namespace GeradorCenarioMVC.WebUI.Controllers
                 {
                     var listaTipoConquistaDTO = await _tipoConquistaService.GetAllAsync();
                     string findName = listaTipoConquistaDTO.Select(x => x.nome).FirstOrDefault(x => x == tipoConquista.nome);
-                    if (findName != null) return BadRequest(new { Message = "O nome já existe." });
+					if (findName != null)
+					{
+
+						ViewData["MessageReturn"] = new MessageReturn()
+						{
+							Result = "ERROR",
+							Message = "O nome já existe."
+						};
+
+						//ViewData["return"] = new { Result = "ERROR", Message = "O nome já existe." };
+						return View(tipoConquista);
+					}					
 
                     await _tipoConquistaService.CreateAsync(tipoConquista);
                     _logger.LogInformation($"Add TipoConquista - {tipoConquista.nome} - user {HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier)}");
@@ -185,7 +197,11 @@ namespace GeradorCenarioMVC.WebUI.Controllers
                     var tipoConquistaFinded = listaTipoConquistaDTO.FirstOrDefault(x => x.nome == tipoConquista.nome && x.id != tipoConquista.id);
                     if (tipoConquistaFinded != null)
                     {
-                        ModelState.AddModelError("CustomError", "O nome já existe.");
+						ViewData["MessageReturn"] = new MessageReturn()
+						{
+							Result = "ERROR",
+							Message = "O nome já existe."
+						};						
                         return View(tipoConquista);
                         //return BadRequest(new { Message = "O nome já existe." });
                     }

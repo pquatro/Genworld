@@ -15,15 +15,15 @@ namespace GeradorCenarioMVC.Infra.Data.Repositories
 
         public async Task<IEnumerable<Cenario>> GetAllAsync()
         {
-            return await _cenarioContext.Cenarios.ToListAsync();
+            return await _cenarioContext.Cenarios.AsNoTracking().ToListAsync();
         }
 
         public async Task<Cenario> GetByIdAsync(int? id)
         {
             return await _cenarioContext.Cenarios.FindAsync(id);
-        }
+        }		
 
-        public async Task<Cenario> GetCenarioCenarioGeneroAsync(int? id)
+		public async Task<Cenario> GetCenarioCenarioGeneroAsync(int? id)
         {
             return await _cenarioContext.Cenarios.Include(c => c.CenarioGeneros).SingleOrDefaultAsync(p => p.Id == id);
         }
