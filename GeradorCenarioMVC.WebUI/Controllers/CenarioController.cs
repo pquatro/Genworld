@@ -250,7 +250,7 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 			return View(cenario);
 		}
 
-		private static async Task<List<Imagem>> UploadImage(IEnumerable<IFormFile> multipleFiles)
+		private static async Task<List<Imagem>> UploadImage(List<IFormFile> multipleFiles)
 		{			
 
 			try

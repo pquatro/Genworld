@@ -35,7 +35,7 @@ namespace GeradorCenarioMVC.Application.DTOs
         public Galeria galeria { get; set; }
 
 
-		public IEnumerable<IFormFile> multipleFiles { get; set; }
+		public List<IFormFile> multipleFiles { get; set; }
 
 		public List<CenarioGenero> cenarioGeneros { get; set; }
 

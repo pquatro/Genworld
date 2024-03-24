@@ -1,0 +1,133 @@
+﻿@model GeradorCenarioMVC.Application.DTOs.CategoriaMateriaDTO
+
+
+@{
+	Layout = "_AdminLayout";
+}
+
+
+<!-- Page Title
+		============================================= -->
+<section class="page-title bg-transparent">
+	<div class="container">
+		<div class="page-title-row">
+
+			<div class="page-title-content">
+				<h1>@ViewData["Title"]</h1>
+			</div>
+
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Administração</a></li>
+					<li class="breadcrumb-item"><a href="#">Categoria da Materia</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Editar Categoria da Materia</li>
+				</ol>
+			</nav>
+
+		</div>
+	</div>
+</section><!-- .page-title end -->
+<!-- Content
+============================================= -->
+<section id="content">
+	<div class="content-wrap">
+		<div class="container">
+
+			<div class="form-widget">
+
+				<div class="form-result text-danger"></div>
+
+				<div class="row">
+					<div class="col-lg-6">
+
+						<form asp-action="Edit" method="post" class="row" id="categoriaMateria-registration">
+							@Html.AntiForgeryToken()
+
+							
+							
+							
+							@*<div asp-validation-summary="All" class="text-danger"></div>*@
+							@*<div class="alert alert-dismissible alert-danger" id="categoriaMateria-registration-validation" style="display:none;"></div>*@
+
+							<div id="categoriaMateria-registration-div"></div>
+
+							
+							<div class="col-6 form-group">
+								<label asp-for="nome">Nome:</label>
+								@*<input asp-for="nome" type="text" name="categoriaMateria-registration-nome" id="categoriaMateria-registration-nome" class="form-control required" value="" placeholder="Entre com  o nome">*@
+								@Html.TextBoxFor(m => m.nome, new { @Value= Model.nome,  @class = "form-control required", placeholder="Entre com  o nome", id="categoriaMateria-registration-nome", name="categoriaMateria-registration-nome"})
+								<span asp-validation-for="nome" class="text-danger"></span>
+							</div>
+							<div class="col-12 form-group">
+								<label asp-for="ativo">Ativo:</label>
+								<div class="form-check form-check-inline">
+									@{
+										var ativo = Model.ativo == true ? "checked" : string.Empty;										
+									}
+
+									@Html.RadioButtonFor(m=>m.ativo,true, new { htmlAttributes = new { @class = "form-check-input required valid", name="categoriaMateria-registration-ativo", id="categoriaMateria-registration-ativo-sim", ativo } } )									
+									<label class="form-check-label text-transform-none" for="categoriaMateria-registration-ativo-sim">sim</label>									
+								</div>
+								<div class="form-check form-check-inline">
+									@Html.RadioButtonFor(m=>m.ativo,false, new { htmlAttributes = new { @class = "form-check-input required valid", name="categoriaMateria-registration-ativo", id="categoriaMateria-registration-ativo-nao", ativo } } )									
+									<label class="form-check-label text-transform-none" for="categoriaMateria-registration-ativo-nao">não</label>
+								</div>
+							</div>
+							
+
+							
+							@Html.HiddenFor(m => m.id,new { @Value= Model.id, id="categoriaMateria-registration-id"})
+							
+
+							<div class="col-12 d-none">
+								<input type="text" id="categoriaMateria-registration-botcheck" name="categoriaMateria-registration-botcheck" value="" class="form-control" />
+							</div>
+
+
+							<div class="col-12">
+								<button type="submit" id="categoriaMateria-registration-submit" name="categoriaMateria-registration-submit" class="btn btn-secondary">Atualizar</button>
+								<a asp-action="Index" class="btn btn-info">Voltar</a>
+							</div>
+
+
+
+
+							<!-- Form Settings -->
+
+							<input type="hidden" name="prefix" value="categoriaMateria-registration-">
+							<input type="hidden" name="subject" value="Message from Contact Form">
+
+						</form>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Notification Types -->
+			<a href="#" id="linkError" class="btn btn-danger me-2" style="display:none;" data-notify-type="error" data-notify-msg="<i class='bi-x-circle-fill me-1'></i> Incorrect Input. Please Try Again!" onclick="SEMICOLON.Modules.notifications(this); return false;">Show Error</a>
+
+		</div>
+	</div>
+</section><!-- #content end -->
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+		var mensagemRetorno = ViewData["MessageReturn"] as MessageReturn;
+		var retorno = ViewData["MessageReturn"] != null ? mensagemRetorno.Result : "";
+		var mensagem = ViewData["MessageReturn"] != null ? mensagemRetorno.Message : "";
+	}
+	<script src="~/js/site.js"></script>
+	<script>
+		jQuery(document).ready(function () {
+			var retorno = '@retorno';
+			var mensagem = '@mensagem';
+			if (retorno = 'ERROR' && mensagem != "") {
+				$("#linkError").attr("data-notify-msg", "<i class='bi-x-circle-fill me-1'></i> " && mensagem);
+				$("#linkError").click();
+			}
+		});
+	</script>
+}
