@@ -4,6 +4,7 @@ using GeradorCenarioMVC.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeradorCenarioMVC.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240405004702_versaoBeta4")]
+    partial class versaoBeta4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,6 +106,9 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<int>("StatusCampanha")
+                        .HasColumnType("int");
+
                     b.Property<int>("StatusCampanhaId")
                         .HasColumnType("int");
 
@@ -182,8 +188,8 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<double?>("Duracao")
-                        .HasColumnType("float");
+                    b.Property<int?>("Duracao")
+                        .HasColumnType("int");
 
                     b.Property<int>("GmId")
                         .HasColumnType("int");
@@ -248,13 +254,16 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                     b.Property<byte[]>("FotoBytes")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<int?>("FotoId")
+                    b.Property<int>("FotoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
 
                     b.Property<int>("PerfilId")
                         .HasColumnType("int");
@@ -263,6 +272,9 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
+
+                    b.Property<int?>("SessaoId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Sobrenome")
                         .IsRequired()
@@ -280,6 +292,8 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("FotoId");
+
+                    b.HasIndex("SessaoId");
 
                     b.ToTable("Usuarios");
                 });
@@ -506,21 +520,6 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("SessaoUsuario", b =>
-                {
-                    b.Property<int>("SessoesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UsuariosPresentesId")
-                        .HasColumnType("int");
-
-                    b.HasKey("SessoesId", "UsuariosPresentesId");
-
-                    b.HasIndex("UsuariosPresentesId");
-
-                    b.ToTable("SessaoUsuario");
-                });
-
             modelBuilder.Entity("CampanhaGenero", b =>
                 {
                     b.HasOne("GeradorCenarioMVC.Domain.Entities.Campanha", null)
@@ -583,7 +582,7 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("GeradorCenarioMVC.Domain.Entities.Usuario", "Gm")
-                        .WithMany("SessoesGm")
+                        .WithMany("Sessoes")
                         .HasForeignKey("GmId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -598,6 +597,12 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                     b.HasOne("GeradorCenarioMVC.Domain.Entities.Imagem", "Foto")
                         .WithMany()
                         .HasForeignKey("FotoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("GeradorCenarioMVC.Domain.Entities.Sessao", null)
+                        .WithMany("UsuariosPresentes")
+                        .HasForeignKey("SessaoId")
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Foto");
@@ -654,24 +659,14 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("SessaoUsuario", b =>
-                {
-                    b.HasOne("GeradorCenarioMVC.Domain.Entities.Sessao", null)
-                        .WithMany()
-                        .HasForeignKey("SessoesId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("GeradorCenarioMVC.Domain.Entities.Usuario", null)
-                        .WithMany()
-                        .HasForeignKey("UsuariosPresentesId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("GeradorCenarioMVC.Domain.Entities.Campanha", b =>
                 {
                     b.Navigation("Sessoes");
+                });
+
+            modelBuilder.Entity("GeradorCenarioMVC.Domain.Entities.Sessao", b =>
+                {
+                    b.Navigation("UsuariosPresentes");
                 });
 
             modelBuilder.Entity("GeradorCenarioMVC.Domain.Entities.Usuario", b =>
@@ -680,7 +675,7 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
 
                     b.Navigation("CampanhasMestre");
 
-                    b.Navigation("SessoesGm");
+                    b.Navigation("Sessoes");
                 });
 #pragma warning restore 612, 618
         }

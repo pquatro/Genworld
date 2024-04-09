@@ -59,15 +59,15 @@ namespace GeradorCenarioMVC.Infra.Data.Identity
                 Task<ApplicationUser> userSaved = _userManager.FindByNameAsync(applicationUser.UserName);
                 Usuario usuario = new Usuario(
                     userId: userSaved.Result.Id,
-                    nomePrimeiro: userSaved.Result.FirstName,
-                    nomeUltimo: userSaved.Result.LastName,
+                    nome: userSaved.Result.FirstName,
+                    sobrenome: userSaved.Result.LastName,
                     email: userSaved.Result.Email,
                     emailVerificado: userSaved.Result.EmailConfirmed,
                     recebeEmail: false,
                     ultimoAcesso: DateTime.Now,
                     ativo: true,
-                    perfil: (Perfil)1,
-                    picture: null
+					perfilId: (int)userSaved.Result.Perfil,
+                    fotoBytes: null
 
                     )
                 { };

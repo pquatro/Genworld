@@ -2,7 +2,7 @@
 	Layout = "_AdminLayout";
 }
 
-@section styles {
+@section styles {	
 	<link rel="stylesheet" href="~/css/components/bs-datatable.css">
 }
 
@@ -14,7 +14,7 @@
 		<div class="page-title-row pb-5 align-items-lg-end">
 
 			<div class="page-title-content">
-				<h1>Usuário</h1>
+				<h1>Gênero da Campanha</h1>
 
 				<div class="page-title-buttons mt-5">
 					<a asp-action="Create" class="button button-border button-light rounded px-5 mb-0">Cadastrar <i class="bi-pencil-square ms-1"></i></a>
@@ -28,7 +28,7 @@
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="#">Home</a></li>
 					<li class="breadcrumb-item"><a href="#">Administração</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Usuario</li>
+					<li class="breadcrumb-item active" aria-current="page">Gênero da Campanha</li>
 				</ol>
 			</nav>
 
@@ -42,16 +42,11 @@
 
 
 			<div class="table-responsive">
-				<table id="tbUsuario" class="table table-striped table-bordered" cellspacing="0" width="100%">
+				<table id="tbGenero" class="table table-striped table-bordered" cellspacing="0" width="100%">
 					<thead>
 						<tr>
 							<th>Id</th>
-							<th>Nome</th>
-							<th>Sobrenome</th>
-							<th>Email</th>
-							<th>Email verificado</th>
-							<th>Recebe email</th>
-							<th>Último acesso</th>							
+							<th>Nome</th>							
 							<th>Ativo</th>
 							<th>Edição</th>
 							<th>Exclusão</th>
@@ -60,12 +55,7 @@
 					<tfoot>
 						<tr>
 							<th>Id</th>
-							<th>Nome</th>
-							<th>Sobrenome</th>
-							<th>Email</th>
-							<th>Email verificado</th>
-							<th>Recebe email</th>
-							<th>Último acesso</th>
+							<th>Nome</th>						
 							<th>Ativo</th>
 							<th>Edição</th>
 							<th>Exclusão</th>
@@ -75,7 +65,7 @@
 				</table>
 			</div>
 
-
+			
 			<!-- Centered modal -->
 			<button id="butExcluir" style="display:none;" data-bs-toggle="modal" data-bs-target=".bs-example-modal-centered">excluir</button>
 
@@ -100,12 +90,12 @@
 			<!-- Notification Types -->
 			<a href="#" id="linkError" class="btn btn-danger me-2" style="display:none;" data-notify-type="error" data-notify-msg="<i class='bi-x-circle-fill me-1'></i> Incorrect Input. Please Try Again!" onclick="SEMICOLON.Modules.notifications(this); return false;">Show Error</a>
 
-			<a href="#" id="linkSuccess" class="btn btn-success me-2" style="display:none;" data-notify-type="success" data-notify-msg="<i class='bi-check-circle-fill me-1'></i> Message Sent Successfully!" onclick="SEMICOLON.Modules.notifications(this); return false;">Show Success</a>
+			<a href="#" id="linkSuccess" class="btn btn-success me-2" style="display:none;"  data-notify-type="success" data-notify-msg="<i class='bi-check-circle-fill me-1'></i> Message Sent Successfully!" onclick="SEMICOLON.Modules.notifications(this); return false;">Show Success</a>
 
 		</div>
 	</div>
 </section><!-- #content end -->
-@section scripts {
+@section scripts {	
 	<script src="~/js/canvas/components/bs-datatable.js"></script>
 	<script>
 		jQuery(document).ready(function () {
@@ -113,15 +103,15 @@
 			//variavel global para guardar o id do usuário que será excluido
 			var idDel = 0;
 
-			$('#tbUsuario tbody').on('click', '.linkEdit', function () {
-				var table = $('#tbUsuario').DataTable();
+			$('#tbGenero tbody').on('click', '.linkEdit', function () {
+				var table = $('#tbGenero').DataTable();
 				var tr = $(this).closest('tr');
 				var data = table.row(tr).data();
-				location.href = "/usuario/Edit/" + data.id;
+				location.href = "/Genero/Edit/" + data.id;				
 			});
 
-			$('#tbUsuario tbody').on('click', '.linkDelete', function () {
-				var table = $('#tbUsuario').DataTable();
+			$('#tbGenero tbody').on('click', '.linkDelete', function () {				
+				var table = $('#tbGenero').DataTable();
 				var tr = $(this).closest('tr');
 				var data = table.row(tr).data();
 				idDel = data.id;
@@ -131,74 +121,45 @@
 			jQuery('#butConfirmExcluir').on('click', function (e) {
 				$.ajax({
 					type: 'GET',
-					url: '@Url.Action("Delete", "Usuario")',
+					url: '@Url.Action("Delete", "Genero")',
 					contentType: "application/json; charset=utf - 8",
-					//dataType: "json",
+					//dataType: "json",					
 					cache: false,
 					data: { "id": idDel },
 					success: function (response) {
 						$("#butConfirmCancel").click();
 						$("#linkSuccess").attr("data-notify-msg", "<i class='bi-check-circle-fill me-1'></i> " && response);
 						$("#linkSuccess").click();
-						$('#tbUsuario').dataTable().fnClearTable();
+						$('#tbGenero').dataTable().fnClearTable();
 					},
 					error: function (response) {
 						$("#butConfirmCancel").click();
-						$("#linkError").attr("data-notify-msg", "<i class='bi-x-circle-fill me-1'></i> " && response.responseText);
+						$("#linkError").attr("data-notify-msg","<i class='bi-x-circle-fill me-1'></i> " && response.responseText);
 						$("#linkError").click();
 					}
-				});
+				});				
 				idDel = 0;
 				//Stops loading link
 				e.preventDefault();
 			});
 
-
-
-			jQuery('#butConfirmCancel').on('click', function (e) {
-				idDel = 0;
-			});
-
 			
 
+			jQuery('#butConfirmCancel').on('click', function (e) {
+				idDel = 0;				
+			});
 
-			var table = jQuery('#tbUsuario').dataTable({
+
+			var table = jQuery('#tbGenero').dataTable({
 				"processing": true,
 				"serverSide": true,
 				"ajax": {
-					"url": "/usuario/Post",
+					"url": "/Genero/Post",
 					"method": "POST"
 				},
 				"columns": [
 					{ "data": "id" },
-					{ "data": "nome" },
-					{ "data": "sobrenome" },
-					{ "data": "email" },
-					{
-						"data": "emailVerificado",
-						"render": function (data, type, row) {
-							return data ? "sim" : "não";
-						}
-					},
-					{
-						"data": "recebeEmail",
-						"render": function (data, type, row) {
-							return data ? "sim" : "não";
-						}
-					},
-					{
-						"data": "ultimoAcesso",
-						render: function (data, type, row) {
-							if (data == null) {
-								return '';
-							} else {
-								var arrayDateTime = data.split("T");
-								var arrayData = arrayDateTime[0].split("-");
-								var arrayTime = arrayDateTime[1].split(":");
-								return arrayData[2] + "/" + arrayData[1] + "/" + arrayData[0] + " " + arrayTime[0] + ":" + arrayTime[1];
-							}
-						}
-					},
+					{ "data": "nome" },		
 					{
 						"data": "ativo",
 						"render": function (data, type, row) {
@@ -207,20 +168,20 @@
 					},
 
 					{
-						"data": "edit",
+						"data": "edit",						
 						"bSearchable": false,
 						"bSortable": false,
-						"render": function (data, type, row) {
+						"render": function (data, type, row) {							
 							return '<a href="#" class="linkEdit"><i class="bi-pencil-square"></i></a>';
-
+							
 						}
 					},
 					{
-						"data": "delete",
+						"data": "delete",						
 						"bSearchable": false,
 						"bSortable": false,
-						"render": function (data, type, row) {
-							return '<a href="#" class="linkDelete"><i class="bi-trash"></i></a>';
+						"render": function (data, type, row) {							
+							return '<a href="#" class="linkDelete"><i class="bi-trash"></i></a>';							
 						}
 					}
 				],
@@ -231,7 +192,7 @@
 			});
 
 
-
+			
 		});
 	</script>
 }

@@ -2,8 +2,7 @@
 
 namespace GeradorCenarioMVC.Domain.Interfaces
 {
-    public interface ICampanhaRepository : IRepository<Campanha>
+    public interface IGeneroRepository : IRepository<Genero>
     {
-        
     }
 }

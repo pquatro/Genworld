@@ -18,10 +18,10 @@ namespace GeradorCenarioMVC.Application.DTOs
         [Required(ErrorMessage = "A data da sessão é obrigatória.")]
         public DateTime data { get; set; }
         [DisplayName("Duração do jogo em horas")]
-        public int? duracaoHoras { get; set; }
+        public int? duracao { get; set; }
         [DisplayName("Jogo é online")]
         [DefaultValue(false)]
-        public bool? jogoOnline { get; set; }
+        public bool? online { get; set; }
         [DisplayName("Local")]
         public string local { get; set; }
         [DisplayName("Vtt")]
@@ -34,13 +34,14 @@ namespace GeradorCenarioMVC.Application.DTOs
         public int gmId { get; set; }
         public Usuario gm { get; set; }
                
-
+        /*
         [DisplayName("Grupo")]
         public int? grupoId { get; set; }
         public Grupo grupo { get; set; }
         [DisplayName("Enredo")]
         public int enredoId { get; set; }
         public Enredo enredo { get; set; }
+        */
     }
 }
 

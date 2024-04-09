@@ -46,14 +46,14 @@
 							<div id="usuario-registration-div"></div>
 
 							<div class="col-6 form-group">
-								<label asp-for="nomePrimeiro">Primeiro nome:</label>
-								<input asp-for="nomePrimeiro" type="text" class="form-control required" value="" placeholder="Entre com o primeiro nome">
-								<span asp-validation-for="nomePrimeiro" class="text-danger"></span>
+								<label asp-for="nome">Primeiro nome:</label>
+								<input asp-for="nome" type="text" class="form-control required" value="" placeholder="Entre com o primeiro nome">
+								<span asp-validation-for="nome" class="text-danger"></span>
 							</div>
 							<div class="col-6 form-group">
-								<label asp-for="nomeUltimo">Último nome:</label>
-								<input asp-for="nomeUltimo" type="text" class="form-control required" value="" placeholder="Entre com o último nome">
-								<span asp-validation-for="nomeUltimo" class="text-danger"></span>
+								<label asp-for="sobrenome">Último nome:</label>
+								<input asp-for="sobrenome" type="text" class="form-control required" value="" placeholder="Entre com o último nome">
+								<span asp-validation-for="sobrenome" class="text-danger"></span>
 							</div>
 							<div class="col-12 form-group">
 								<label asp-for="email">Email:</label>
@@ -86,11 +86,11 @@
 							</div>
 
 							<div class="col-12 form-group">
-								<label asp-for="picture" style="width: 100%;">Foto:</label>															
+								<label asp-for="FotoBytes" style="width: 100%;">Foto:</label>															
 								<img id="imgPicture" style="width:250px;height:250px; object-fit:cover" src="">
-								<input type="file" accept=".png,.jpg,.jpeg" asp-for="picture" class="form-control" style="border:0px!important;padding: 0px;padding-top: 10px;padding-bottom: 30px;"
+								<input type="file" accept=".png,.jpg,.jpeg" asp-for="FotoBytes" class="form-control" style="border:0px!important;padding: 0px;padding-top: 10px;padding-bottom: 30px;"
 			 onchange="document.getElementById('imgPicture').src = window.URL.createObjectURL(this.files[0])" />
-								<span asp-validation-for="picture" class="text-danger"></span>								
+								<span asp-validation-for="FotoBytes" class="text-danger"></span>
 							</div>
 
 							<div class="col-12 d-none">

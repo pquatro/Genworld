@@ -4,6 +4,7 @@ using GeradorCenarioMVC.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeradorCenarioMVC.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240405010500_versaoBeta5")]
+    partial class versaoBeta5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,6 +106,9 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<int>("StatusCampanha")
+                        .HasColumnType("int");
+
                     b.Property<int>("StatusCampanhaId")
                         .HasColumnType("int");
 
@@ -182,8 +188,8 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<double?>("Duracao")
-                        .HasColumnType("float");
+                    b.Property<int?>("Duracao")
+                        .HasColumnType("int");
 
                     b.Property<int>("GmId")
                         .HasColumnType("int");
@@ -248,13 +254,16 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                     b.Property<byte[]>("FotoBytes")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<int?>("FotoId")
+                    b.Property<int>("FotoId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
 
                     b.Property<int>("PerfilId")
                         .HasColumnType("int");
@@ -598,7 +607,8 @@ namespace GeradorCenarioMVC.Infra.Data.Migrations
                     b.HasOne("GeradorCenarioMVC.Domain.Entities.Imagem", "Foto")
                         .WithMany()
                         .HasForeignKey("FotoId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Foto");
                 });

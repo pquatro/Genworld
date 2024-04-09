@@ -6,8 +6,17 @@ namespace GeradorCenarioMVC.Domain.Entities
     {
         public string Nome { get; private set; }
         public string Url { get; private set; }
-        
-        public Imagem(string nome, string url)
+
+
+		/// <summary>
+		/// Atributos de relacionamento
+		/// </summary>		
+		//public ICollection<Mapa> Mapas { get; set; }
+		//public ICollection<Npc> Npcs { get; set; }
+		//public ICollection<Pc> Pcs { get; set; }        
+		//public ICollection<SecaoCabecalho> SecoesCabecalho { get; set; }
+
+		public Imagem(string nome, string url)
         {
             ValidateDomain(nome, url);
         }
@@ -18,10 +27,9 @@ namespace GeradorCenarioMVC.Domain.Entities
             ValidateDomain(nome, url);
         }
 
-        public void Update(string nome, string url, ICollection<Galeria> galerias)
+        public void Update(string nome, string url)
         {
-            ValidateDomain(nome, url);
-            Galerias = galerias;
+            ValidateDomain(nome, url);            
         }
 
         private void ValidateDomain(string nome, string url)
@@ -33,13 +41,8 @@ namespace GeradorCenarioMVC.Domain.Entities
             Nome = nome;
             Url = url;
         }
-
-        public ICollection<Galeria> Galerias { get; set; }
-        public ICollection<Mapa> Mapas { get; set; }
-        public ICollection<Npc> Npcs { get; set; }
-        public ICollection<Pc> Pcs { get; set; }
-        public ICollection<Campanha> Campanhas { get; set; }
-        public ICollection<SecaoCabecalho> SecoesCabecalho { get; set; }
+                
+        
 
     }
 }

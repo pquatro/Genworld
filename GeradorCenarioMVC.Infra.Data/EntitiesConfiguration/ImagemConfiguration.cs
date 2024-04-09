@@ -18,7 +18,7 @@ namespace GeradorCenarioMVC.Infra.Data.EntitiesConfiguration
             builder.Property(p => p.Url).HasMaxLength(100).IsRequired();
            
             //builder.HasMany<Campanha>(e => e.Campanhas).WithOne(e => e.Imagem).HasForeignKey(e => e.ImagemId).IsRequired(false);
-            builder.HasMany<Mapa>(e => e.Mapas).WithOne(e => e.Imagem).HasForeignKey(e => e.ImagemId).IsRequired(false);
+            //builder.HasMany<Mapa>(e => e.Mapas).WithOne(e => e.Imagem).HasForeignKey(e => e.ImagemId).IsRequired(false);
             //builder.HasMany<Npc>(e => e.Npcs).WithOne(e => e.Foto).HasForeignKey(e => e.FotoId).IsRequired(false); ;
         }
     }

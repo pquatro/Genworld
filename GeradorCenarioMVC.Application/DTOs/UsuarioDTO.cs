@@ -9,12 +9,12 @@ namespace GeradorCenarioMVC.Application.DTOs
         [DisplayName("Primeiro Nome")]
         [Required(ErrorMessage = "O Primeiro Nome é obrigatório.")]
         [MaxLength(50, ErrorMessage = "O Primeiro Nome não pode ser maior que 50 caracteres.")]
-        public string nomePrimeiro { get; set; }
+        public string nome { get; set; }
 
         [DisplayName("Último Nome")]
         [Required(ErrorMessage = "O Último Nome é obrigatório.")]
         [MaxLength(50, ErrorMessage = "O Último Nome não pode ser maior que 50 caracteres.")]
-        public string nomeUltimo { get; set; }       
+        public string sobrenome { get; set; }       
 
         [DisplayName("Email")]
         [Required(ErrorMessage = "O Email é obrigatório.")]
@@ -49,7 +49,7 @@ namespace GeradorCenarioMVC.Application.DTOs
         public bool? ativo { get; set; }
 
         [DisplayName("Foto")]        
-        public byte[]? picture { get; set; }
+        public byte[]? FotoBytes { get; set; }
 
         public int? perfil { get; set; } = 1;
 

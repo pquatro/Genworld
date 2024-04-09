@@ -57,8 +57,8 @@ namespace GeradorCenarioMVC.WebUI.Controllers
                 {
                     listaForm = listaForm.Where(m =>
                                                 m.id.ToString().Contains(searchValue)
-                                             || m.nomePrimeiro.Contains(searchValue)
-                                             || m.nomeUltimo.Contains(searchValue)
+                                             || m.nome.Contains(searchValue)
+                                             || m.sobrenome.Contains(searchValue)
                                              || m.email.Contains(searchValue)
                                              || (m.emailVerificado == true ? "sim" : "não").Contains(searchValue)
                                              || (m.recebeEmail == true ? "sim" : "não").Contains(searchValue)
@@ -162,7 +162,7 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 						using (var dataStream = new MemoryStream())
 						{
 							await file.CopyToAsync(dataStream);
-							entityDTO.picture = dataStream.ToArray();
+							entityDTO.FotoBytes = dataStream.ToArray();
 						}
 					}
 
@@ -173,22 +173,22 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 
 
 					//registrando no identty 
-					var result = await _authentication.RegisterUserFull(entityDTO.email, entityDTO.password, entityDTO.nomePrimeiro, entityDTO.nomeUltimo, entityDTO.recebeEmail, entityDTO.picture);
+					var result = await _authentication.RegisterUserFull(entityDTO.email, entityDTO.password, entityDTO.nome, entityDTO.sobrenome, entityDTO.recebeEmail, entityDTO.FotoBytes);
 					if (result)
 					{
 						
 						Task<ApplicationUser> userSaved = _userManager.FindByEmailAsync(entityDTO.email);
                         UsuarioDTO usuarioDTO = new UsuarioDTO() {
-                            UserId = userSaved.Result.Id,							
-                            nomePrimeiro = userSaved.Result.FirstName,
-                            nomeUltimo = userSaved.Result.LastName,
+                            UserId = userSaved.Result.Id,
+							nome = userSaved.Result.FirstName,
+							sobrenome = userSaved.Result.LastName,
                             email= userSaved.Result.Email,
                             emailVerificado= userSaved.Result.EmailConfirmed,
                             recebeEmail= userSaved.Result.RecebeEmail,
                             ultimoAcesso= null,
                             ativo= true,
                             perfil= 1,
-                            picture= userSaved.Result.Picture
+							FotoBytes = userSaved.Result.Picture
 
 						};
 
@@ -248,7 +248,7 @@ namespace GeradorCenarioMVC.WebUI.Controllers
 
 
                     //atualizando no identty                     
-                    var result = await _authentication.UpdateUser(usuario.email,usuario.password,usuario.nomePrimeiro, usuario.nomeUltimo,usuario.recebeEmail, usuario.picture);
+                    var result = await _authentication.UpdateUser(usuario.email,usuario.password,usuario.nome, usuario.sobrenome,usuario.recebeEmail, usuario.FotoBytes);
                     if (result)
                     {                       
                         //atualizando usuario

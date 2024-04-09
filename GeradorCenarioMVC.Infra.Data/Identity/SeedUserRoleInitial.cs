@@ -35,7 +35,7 @@ namespace GeradorCenarioMVC.Infra.Data.Identity
                 user.FirstName = "Usuário";
                 user.LastName = "Localhost";
                 user.RecebeEmail = false;
-                user.Perfil = (Perfil)1;
+                user.Perfil = Perfil.Usuario;
                               
 
 
@@ -49,15 +49,15 @@ namespace GeradorCenarioMVC.Infra.Data.Identity
                     Task<ApplicationUser> userSaved = _userManager.FindByNameAsync(user.UserName);
                     Usuario usuario = new Usuario( 
                         userId: userSaved.Result.Id, 
-                        nomePrimeiro: userSaved.Result.FirstName,
-                        nomeUltimo: userSaved.Result.LastName,                                                
+                        nome: userSaved.Result.FirstName,
+                        sobrenome: userSaved.Result.LastName,                                                
                         email: userSaved.Result.Email,
                         emailVerificado: userSaved.Result.EmailConfirmed,
                         recebeEmail: false,
                         ultimoAcesso:DateTime.Now,
                         ativo:true,
-                        perfil: (Perfil)1,
-                        picture: null                       
+						perfilId: 2,
+                        fotoBytes: null                       
 
                         ) { };
                      _usuarioRepository.CreateAsync(usuario).Wait(); 
@@ -78,7 +78,7 @@ namespace GeradorCenarioMVC.Infra.Data.Identity
                 user.FirstName = "Administrador";
                 user.LastName = "Localhost";
                 user.RecebeEmail = false;
-                user.Perfil = (Perfil)0;
+                user.Perfil = Perfil.Administrador;
 
                 IdentityResult result = _userManager.CreateAsync(user, "Pedro193325-8").Result;
 
@@ -90,15 +90,15 @@ namespace GeradorCenarioMVC.Infra.Data.Identity
                     Task<ApplicationUser> userSaved = _userManager.FindByNameAsync(user.UserName);
                     Usuario usuario = new Usuario(
                         userId: userSaved.Result.Id,
-                        nomePrimeiro: userSaved.Result.FirstName,
-                        nomeUltimo: userSaved.Result.LastName,
+                        nome: userSaved.Result.FirstName,
+                        sobrenome: userSaved.Result.LastName,
                         email: userSaved.Result.Email,
                         emailVerificado: userSaved.Result.EmailConfirmed,
                         recebeEmail: false,
                         ultimoAcesso: DateTime.Now,
                         ativo: true,
-                        perfil: (Perfil)0,
-                        picture: null                      
+						perfilId: 1,
+                        fotoBytes: null                      
                         )
                     { };
                     _usuarioRepository.CreateAsync(usuario).Wait();

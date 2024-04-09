@@ -46,14 +46,14 @@
 							<div id="usuario-registration-div"></div>
 
 							<div class="col-6 form-group">
-								<label asp-for="nomePrimeiro">Primeiro nome:</label>
-								@Html.TextBoxFor(m => m.nomePrimeiro, new { @Value= Model.nomePrimeiro,  @class = "form-control required", placeholder="Entre com  o primeiro nome", id="usuario-registration-primeiroNome", name="usuario-registration-primeiroNome"})								
-								<span asp-validation-for="nomePrimeiro" class="text-danger"></span>
+								<label asp-for="nome">Primeiro nome:</label>
+								@Html.TextBoxFor(m => m.nome, new { @Value = Model.nome, @class = "form-control required", placeholder = "Entre com  o primeiro nome", id = "usuario-registration-primeiroNome", name = "usuario-registration-primeiroNome" })
+								<span asp-validation-for="nome" class="text-danger"></span>
 							</div>
 							<div class="col-6 form-group">
-								<label asp-for="nomeUltimo">Último nome:</label>
-								@Html.TextBoxFor(m => m.nomeUltimo, new { @Value= Model.nomeUltimo,  @class = "form-control required", placeholder="Entre com  o último nome", id="usuario-registration-ultimoNome", name="usuario-registration-ultimoNome"})								
-								<span asp-validation-for="nomeUltimo" class="text-danger"></span>
+								<label asp-for="sobrenome">Último nome:</label>
+								@Html.TextBoxFor(m => m.sobrenome, new { @Value = Model.sobrenome, @class = "form-control required", placeholder = "Entre com  o último nome", id = "usuario-registration-ultimoNome", name = "usuario-registration-ultimoNome" })
+								<span asp-validation-for="sobrenome" class="text-danger"></span>
 							</div>
 							<div class="col-12 form-group">
 								<label asp-for="email">Email:</label>
@@ -86,19 +86,19 @@
 							</div>
 
 							<div class="col-12 form-group">
-								<label asp-for="picture" style="width: 100%;">Foto:</label>
+								<label asp-for="FotoBytes" style="width: 100%;">Foto:</label>
 
-								@if (Model.picture != null)
+								@if (Model.FotoBytes != null)
 								{
-									<img id="imgPicture" style="width:250px;height:250px; object-fit:cover" src="data:image/*;base64,@(Convert.ToBase64String(Model.picture))">
+									<img id="imgPicture" style="width:250px;height:250px; object-fit:cover" src="data:image/*;base64,@(Convert.ToBase64String(Model.FotoBytes))">
 								}
 								else
 								{
 									<img id="imgPicture" style="width:250px;height:250px; object-fit:cover" src="">
 								}								
-								<input type="file" accept=".png,.jpg,.jpeg" asp-for="picture" class="form-control" style="border:0px!important;padding: 0px;padding-top: 10px;padding-bottom: 30px;"
+								<input type="file" accept=".png,.jpg,.jpeg" asp-for="FotoBytes" class="form-control" style="border:0px!important;padding: 0px;padding-top: 10px;padding-bottom: 30px;"
 			onchange="document.getElementById('imgPicture').src = window.URL.createObjectURL(this.files[0])" />
-								<span asp-validation-for="picture" class="text-danger"></span>
+								<span asp-validation-for="FotoBytes" class="text-danger"></span>
 							</div>
 
 
